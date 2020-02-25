@@ -833,6 +833,20 @@ Connection.prototype.subscribe = function(data) {
   return client.subscribe(opts);
 };
 
+Connection.prototype.subscribeAsync = function(data) {
+  var opts = this._getOpts(data, null, {
+    singleProp: 'topic',
+    defaults: {
+      isSystem: false,
+      timeout: null,
+      retry: null
+    }
+  });
+
+  var client = this.createStreamClient(opts);
+  return client.subscribeAsync(opts);
+};
+
 // keeping this method for backwards compatibility
 // proxies to connection.subscribe now
 Connection.prototype.stream = function(data) {

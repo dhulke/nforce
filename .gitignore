@@ -23,3 +23,5 @@ examples/leadOut.json
 env.sh
 dist
 test.old
+
+.idea

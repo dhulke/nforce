@@ -1,8 +1,8 @@
 {
-  "author": "Kevin O'Hara <kevnohara80@gmail.com> (http://kevinmohara.com)",
-  "name": "nforce",
-  "description": "nforce is a REST API wrapper for force.com, database.com, and salesforce.com",
-  "version": "1.12.2",
+  "author": "Danilo S. Morães <greendhulke@gmail.com>",
+  "name": "sforcejs",
+  "description": "sforcejs is a copy of nforce with backpressure support",
+  "version": "1.0.0",
   "keywords": [
     "salesforce",
     "salesforce.com",
@@ -11,15 +11,16 @@
     "sfdc",
     "forcedotcom",
     "rest",
-    "api"
+    "api",
+    "bayeuxjs"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/kevinohara80/nforce.git"
+    "url": "git://github.com/dhulke/sforcejs.git"
   },
   "main": "index.js",
   "dependencies": {
-    "faye": "^1.2.4",
+    "bayeuxjs": "^1.0.1",
     "lodash": "^4.17.11",
     "mime": "1.4.1",
     "request": "^2.88.0"
