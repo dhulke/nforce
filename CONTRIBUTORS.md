@@ -27,3 +27,4 @@
 * Laboratory -> [Laboratory](https://github.com/Laboratory)
 * Kessiler -> [kessiler](https://github.com/kessiler)
 * Vineet Sinha -> [vineet-sinha](https://github.com/vineet-sinha)
+* Danilo S. Morães -> [dhulke](https://github.com/dhulke)
