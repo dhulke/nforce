@@ -1,4 +1,4 @@
-# sforcejs :: node.js salesforce REST API wrapper with backpressure
+# Sforcejs :: node.js salesforce REST API wrapper with backpressure
 
 Sforcejs is a copy of the [nforce](https://github.com/kevinohara80/nforce) module with support for streaming backpressure by using the Bayeuxjs package, instead 
 of Faye. The following is an example of the additional feature this package provides.
