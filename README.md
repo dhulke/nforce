@@ -3,6 +3,8 @@
 Sforcejs is a copy of the [nforce](https://github.com/kevinohara80/nforce) module with support for streaming backpressure by using the Bayeuxjs package, instead 
 of Faye. The following is an example of the additional feature this package provides.
 
+## Streaming Client
+### Lastevent trigger
 The `lastevent` event is triggered after the last `data` event of the current page has been triggered. The `lastevent` 
 event will receive a callback as a parameter that will request additional events when called. This mechanism provides a 
 way to control the flow of events from the data source.
@@ -33,3 +35,7 @@ org.authenticate({ username: user, password: pass }, function(err, oauth) {
 
 });
 ```
+
+### subscribe(opts)
+* `channel`: (String:optional) A string value for the streaming channel (ex. /data/CaseChangeEvent).
+* `isCDC`: (Boolean:optional) Specify `true` if the topic to be streamed is a Change Data Capture (CDC).
