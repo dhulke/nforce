@@ -7,7 +7,6 @@ var FDCStream = require('./lib/fdcstream');
 var util      = require('./lib/util');
 var errors    = require('./lib/errors');
 var multipart = require('./lib/multipart');
-var faye      = require('faye');
 var mime      = require('mime');
 var zlib      = require('zlib');
 var _         = require('lodash');
